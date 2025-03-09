@@ -1,0 +1,190 @@
+style{
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 400px) {
+    .main, .navbar, .imgContainer, .divContact, .faq, .baner {   
+      flex-direction: column;
+    }
+}
+
+body{
+    font-family: Arial;
+    background-color: whitesmoke;
+}
+
+.baner{
+    background-image: url('https://www.serwis-krzycka.pl/assets/images/moth_fix.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5px;
+    text-align: left;
+    font-size: 40px;
+    color: whitesmoke;
+    text-shadow: 4px 4px 2px black;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    -webkit-text-stroke: 1px black;
+}
+
+.navbar{
+    display: flex;
+    text-align: center;
+    padding: 15px;
+    background-color: #28282B;
+    justify-content: center;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.main{
+    background-color: whitesmoke;
+    margin: 20px
+}
+
+.button{
+    padding: 15px;
+    background-color: whitesmoke;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: azure;
+}
+
+
+.footer{
+    background-color: #343434;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: right;
+    color: whitesmoke;
+    text-shadow: 4px 4px 4px black;
+}
+
+.imgMain{
+    height: 100px;
+    width: 100px;
+    border: black;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+th{
+    text-align: left;
+    padding: 5px;
+}
+
+td{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.spanContact{
+    font-weight: bold;
+}
+
+.imgContact{
+    height: 100px;
+    width: 100px;
+    border: black;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 10px;
+    float: left;
+}
+
+.divContact{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.divContact2{
+    text-align: center;
+}
+
+
+.faq{
+    padding: 15px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq-item{
+    width: 80%;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq-question{
+    width: 60%;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #343434;
+    color: whitesmoke;
+    text-shadow: 4px 4px 4px black;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.faq-question:hover{
+    text-shadow: 2px 2px 4px azure;
+    width: 65%;
+}
+
+.faq-answer {
+    width: 50%;
+    text-align: center;
+    display: none;
+    padding: 10px;
+    background-color: white;
+    border-left: 4px solid #343434;
+    border-right: 4px solid #343434;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+#logo{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
