@@ -1,1 +1,4 @@
 sitemap:https://rzakrzewski02.github.io/OSI/sitemap.xml
+User-agent: *
+Disallow: /admin/
+Allow: /publiczny-folder/

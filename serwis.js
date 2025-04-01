@@ -63,7 +63,7 @@ function showInfo(section){
             <h2>Kontakt</h2>
             <hr>
             <div class="divContact">
-                <img class="imgContact" src="https://img.freepik.com/premium-wektory/wektorowa-ilustracja-ikony-telefonu-na-bialym_921039-10603.jpg?semt=ais_hybrid" alt="phone">
+                <img class="imgContact" src="https://img.freepik.com/premium-wektory/wektorowa-ilustracja-ikony-telefonu-na-bialym_921039-10603.jpg?semt=ais_hybrid" alt="phone"  loading="lazy">
                 <p><span class="spanContact">Email:</span> kontakt@comp-serw.pl</p>
                 <p><span class="spanContact">Telefon:</span> +48 123 456 789</p>
             </div>
@@ -72,7 +72,7 @@ function showInfo(section){
                 <br><p>Czynne od poniedziałku do piątku w godzinach <b>9:00 - 16:00</b></p><br>
                 <p><b>Adres naszego serwisu</b></p>
                 <p>Comp-Serw</p>
-                <p>ul. Jagiellońska 3/9 lok.6 </p>
+                <p>ul. Jagiellońska 3</p>
                 <p>42-216 Częstochowa</p><br>
             </div>
             <hr>
